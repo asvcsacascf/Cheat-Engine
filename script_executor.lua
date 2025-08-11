@@ -4,7 +4,7 @@
 
 -- open the current roblox process
 -- 
-local pid = getProcessIDFromProcessName("RobloxPlayerBeta.exe");
+local pid = getProcessIDFromProcessName("Polytoria Client.exe");
 openProcess(pid);
 local base = getAddress(enumModules(pid)[1].Name);
 
